@@ -1,0 +1,1 @@
+const USERDATA_STRUCTURE = {};

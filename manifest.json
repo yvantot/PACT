@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "PACT",
+    "author": "Jun Ivanne Dalman",
+    "version": "1.0",
+    "description": "Manage your projects the PACT way",
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "activeTab"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "./html/popup/popup.html"
+    },
+    "action": {
+        "default_popup": "./html/popup/popup.html",
+        "default_title": "PACT"
+    },
+    "background": {
+        "service_worker": "./js/background/data.js"
+    }
+}
