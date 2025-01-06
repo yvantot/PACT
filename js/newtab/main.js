@@ -1,1 +1,0 @@
-const USERDATA_STRUCTURE = {};
